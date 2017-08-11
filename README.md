@@ -18,6 +18,7 @@ ___
 
 ### 1.0.1
 
+
 - Added HTTP Interceptor for Angular 4.3.0+
 - Updated all packages to newest versions
 
@@ -53,6 +54,7 @@ npm install -g gulp
 npm install -g tslint
 npm install -g typescript
 npm install -g tslint
+npm install -g eslint
 
 ```
 
@@ -129,7 +131,7 @@ npm install --save-dev @types/jasmine
 
 ```bash
 
-eslint --init
+eslint --init 
 
 ```
 
@@ -137,7 +139,7 @@ eslint --init
 
 ```bash
 
-tslint --init
+tslint --init throws error: file already exists
 
 ```
 
